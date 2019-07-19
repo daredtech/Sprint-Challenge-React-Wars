@@ -28,6 +28,7 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 It is a javascript library that allows reusability (reusable components) and scalability of the application where the content changes dynamically.
 
 - [ ] What does it mean to _think_ in react?
+It is to mindful of all the components and how they relate to each other, how they may change and plan according to that. 
 
 - [ ] Describe state.
 
