@@ -37,6 +37,8 @@ It a current condition/value of the component that can change over time.
 Props is an object that holds information of the component but it cannot change over time 
 
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+Side effect is an unexpected change in the state of the component. It can be done with the hooks.
+
 
 ## Project Set Up
 
