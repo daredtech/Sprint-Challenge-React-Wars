@@ -34,6 +34,7 @@ It is to mindful of all the components and how they relate to each other, how th
 It a current condition/value of the component that can change over time.
 
 - [ ] Describe props.
+Props is an object that holds information of the component but it cannot change over time 
 
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
 
