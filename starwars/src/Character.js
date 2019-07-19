@@ -2,22 +2,29 @@ import React from 'react'
 import { Card, Feed} from 'semantic-ui-react'
 
 const Character = (props) => (
-    <Card>
-    <Card.Content>
-      <Card.Header>{props.name}</Card.Header>
-    </Card.Content>
-    <Card.Content>
-      <Feed>
-        <Feed.Event>
+    <Card className='character'>
+      <Card.Header className='characterTitle'>{props.name}</Card.Header>
+      <Feed className='characterFeed'>
           <Feed.Content>
-            haircolor: {props.hair_color}
+          birth year: {props.birth_year}
           </Feed.Content>
           <Feed.Content>
-            homeworld: {props.homeworld}
+          eye color: {props.eye_color}
           </Feed.Content>
-        </Feed.Event>
+          <Feed.Content>
+          gender: {props.gender}
+          </Feed.Content>
+          <Feed.Content>
+          hair color: {props.hair_color}
+          </Feed.Content>
+          <Feed.Content>
+          height: {props.height}
+          </Feed.Content>
+          <Feed.Content>
+          skin color: {props.skin_color}
+          </Feed.Content>
       </Feed>
-    </Card.Content>
+
   </Card>
  )
 
