@@ -31,6 +31,7 @@ It is a javascript library that allows reusability (reusable components) and sca
 It is to mindful of all the components and how they relate to each other, how they may change and plan according to that. 
 
 - [ ] Describe state.
+It a current condition/value of the component that can change over time.
 
 - [ ] Describe props.
 
