@@ -1,7 +1,7 @@
 import React from 'react'
 import { Card, Feed} from 'semantic-ui-react'
 
-const CharacterCard = (props) => (
+const Character = (props) => (
     <Card>
     <Card.Content>
       <Card.Header>{props.name}</Card.Header>
@@ -21,4 +21,4 @@ const CharacterCard = (props) => (
   </Card>
  )
 
-    export default CharacterCard
+    export default Character
